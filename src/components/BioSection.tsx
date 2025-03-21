@@ -15,7 +15,7 @@ const BioSection = ({
   title = "UI/UX Designer",
   description = "Passionate UI/UX designer with expertise in creating intuitive and engaging digital experiences. Combining creative design thinking with technical skills to build user-centered solutions that solve real problems.",
   resumeUrl = "/resume.pdf",
-  imageUrl = "https://api.dicebear.com/7.x/avataaars/svg?seed=Kyle",
+  imageUrl = "images/ProfPic.jpg",
 }: BioSectionProps) => {
   return (
     <section
