@@ -28,13 +28,11 @@ const SkillsSection = ({
       { name: "SQL" },
       { name: "MongoDB" },
       { name: "Firebase" },
-      { name: "Supabase" },
+      { name: "Postman" },
     ],
     programmingLanguages: [
       { name: "Java" },
       { name: "TypeScript" },
-      { name: "Python" },
-      { name: "C#" },
     ],
     aiDesignTools: [
       { name: "Canva" },

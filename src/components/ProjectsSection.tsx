@@ -51,37 +51,37 @@ const ProjectsSection = ({
       imageUrl:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
       technologies: ["React", "Redux", "Chart.js", "Material UI"],
-      demoUrl: "https://example.com/dashboard",
-      repoUrl: "https://github.com/kylefallarme/ecommerce-dashboard",
+      demoUrl: "https://intern-projmgt-main.vercel.app/dashboard",
+      repoUrl: "https://github.com/bridge360-ph/Intern_projmgt1",
     },
     {
       id: "3",
-      title: "Mobile Fitness App",
+      title: "BaryoWork Application",
       description:
-        "A cross-platform mobile application for tracking workouts and nutrition",
+        "A cross-platform mobile application for local job search.",
       longDescription:
-        "A fitness tracking application that helps users monitor their workouts, nutrition, and progress. The app provides personalized recommendations and visualizes progress over time.",
+        "A BaryoWork Application is to streamline local job search for residents in the Philippines.",
       thumbnail:
         "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&q=80",
       imageUrl:
         "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&q=80",
-      technologies: ["React Native", "Firebase", "Redux", "Expo"],
+      technologies: ["React Native", "MongoDB", "Redux"],
       demoUrl: "https://example.com/fitness-app",
       repoUrl: "https://github.com/kylefallarme/fitness-app",
     },
     {
       id: "4",
-      title: "AI Content Generator",
+      title: "MemoRecall Web App",
       description:
-        "A web application that uses AI to generate marketing content",
+        "A web application for Geriatric Individuals.",
       longDescription:
-        "An innovative tool that leverages AI to help marketers generate compelling content for various platforms. The application offers customization options and supports multiple content formats.",
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
       thumbnail:
         "https://images.unsplash.com/photo-1677442135968-6bd241f40c8d?w=600&q=80",
       imageUrl:
         "https://images.unsplash.com/photo-1677442135968-6bd241f40c8d?w=800&q=80",
-      technologies: ["Next.js", "OpenAI API", "Tailwind CSS", "MongoDB"],
-      demoUrl: "https://example.com/ai-generator",
+      technologies: ["Vite", "React", "Tailwind CSS", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/ai-content-generator",
     },
   ],
