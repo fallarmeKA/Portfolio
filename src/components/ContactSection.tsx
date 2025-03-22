@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import emailjs from "@emailjs/browser";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -47,6 +48,12 @@ interface ContactSectionProps {
 
 const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
   const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState({
+    title: "",
+    description: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -57,12 +64,52 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
     },
   });
 
-  const onSubmit = (data: FormValues) => {
-    console.log("Form submitted:", data);
-    // In a real application, you would send this data to a server
-    form.reset();
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 3000);
+  const onSubmit = async (data: FormValues) => {
+    try {
+      setIsSubmitting(true);
+      console.log("Form submitted:", data);
+
+      const serviceId = "service_cl3urue"; 
+      const templateId = "template_3sxyfw5"; 
+      const publicKey = "3943J68V9UamSSD_W"; 
+
+      // template parameters
+      const templateParams = {
+        from_name: data.name,
+        from_email: data.email,
+        message: data.message,
+        to_name: "Kyle Fallarme", 
+        reply_to: data.email,
+      };
+
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        serviceId,
+        templateId,
+        templateParams,
+        publicKey,
+      );
+      console.log("Email sent successfully:", result.text);
+
+      // Reset form and show success message
+      form.reset();
+      setToastMessage({
+        title: "Message Sent!",
+        description: "Thank you for your message. I'll get back to you soon.",
+      });
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000);
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      setToastMessage({
+        title: "Error",
+        description: "Failed to send your message. Please try again later.",
+      });
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -140,8 +187,18 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
                   )}
                 />
 
-                <Button type="submit" className="w-full">
-                  <Send className="mr-2 h-4 w-4" /> Send Message
+                <Button
+                  type="submit"
+                  className="w-full"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? (
+                    <span>Sending...</span>
+                  ) : (
+                    <>
+                      <Send className="mr-2 h-4 w-4" /> Send Message
+                    </>
+                  )}
                 </Button>
               </form>
             </Form>
