@@ -67,7 +67,7 @@ const ProjectsSection = ({
         "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&q=80",
       technologies: ["React Native", "MongoDB", "Redux"],
       demoUrl: "https://example.com/fitness-app",
-      repoUrl: "https://github.com/kylefallarme/fitness-app",
+      repoUrl: "https://github.com/fallarmeKA/BaryoWorkFront",
     },
     {
       id: "4",
