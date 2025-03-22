@@ -28,7 +28,7 @@ import {
   Mail,
   MessageSquare,
   Send,
-  Twitter,
+  Facebook,
 } from "lucide-react";
 
 const formSchema = z.object({
@@ -177,7 +177,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
 
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/kylefallarme"
+                  href="https://github.com/fallarmeKA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -187,7 +187,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/kylefallarme"
+                  href="https://www.linkedin.com/in/kyle-andre-l-fallarme-628318150/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -197,13 +197,13 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
                 </a>
 
                 <a
-                  href="https://twitter.com/kylefallarme"
+                  href="https://www.facebook.com/profile.php?id=100068451715963"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
-                  aria-label="Twitter Profile"
+                  aria-label="Facebook Profile"
                 >
-                  <Twitter className="h-5 w-5" />
+                  <Facebook className="h-5 w-5" />
                 </a>
               </div>
 

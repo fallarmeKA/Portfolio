@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Facebook } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -59,42 +59,50 @@ const Footer = () => {
 
           {/* Social links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Connect</h3>
-            <div className="flex space-x-4">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-slate-300 hover:text-white hover:bg-slate-800"
-              >
-                <Github className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-slate-300 hover:text-white hover:bg-slate-800"
-              >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-slate-300 hover:text-white hover:bg-slate-800"
-              >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-slate-300 hover:text-white hover:bg-slate-800"
-              >
-                <Mail className="h-5 w-5" />
-                <span className="sr-only">Email</span>
-              </Button>
-            </div>
-          </div>
+  <h3 className="text-xl font-bold mb-4">Connect</h3>
+  <div className="flex space-x-4">
+    <a href="https://github.com/fallarmeKA" target="_blank" rel="noopener noreferrer">
+      <Button
+        variant="ghost"
+        size="icon"
+        className="text-slate-300 hover:text-white hover:bg-slate-800"
+      >
+        <Github className="h-5 w-5" />
+        <span className="sr-only">GitHub</span>
+      </Button>
+    </a>
+    <a href="https://www.linkedin.com/in/kyle-andre-l-fallarme-628318150/" target="_blank" rel="noopener noreferrer">
+      <Button
+        variant="ghost"
+        size="icon"
+        className="text-slate-300 hover:text-white hover:bg-slate-800"
+      >
+        <Linkedin className="h-5 w-5" />
+        <span className="sr-only">LinkedIn</span>
+      </Button>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100068451715963" target="_blank" rel="noopener noreferrer">
+      <Button
+        variant="ghost"
+        size="icon"
+        className="text-slate-300 hover:text-white hover:bg-slate-800"
+      >
+        <Facebook className="h-5 w-5" />
+        <span className="sr-only">Facebook</span>
+      </Button>
+    </a>
+    <a href="mailto:kalfallarme08@gmail.com">
+      <Button
+        variant="ghost"
+        size="icon"
+        className="text-slate-300 hover:text-white hover:bg-slate-800"
+      >
+        <Mail className="h-5 w-5" />
+        <span className="sr-only">Email</span>
+      </Button>
+    </a>
+  </div>
+</div>
         </div>
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
