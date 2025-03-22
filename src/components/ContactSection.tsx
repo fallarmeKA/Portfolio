@@ -278,12 +278,10 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
         {showToast && (
           <Toast className="fixed bottom-4 right-4">
             <div className="flex">
-              <ToastTitle>Message Sent!</ToastTitle>
+              <ToastTitle>{toastMessage.title}</ToastTitle>
               <ToastClose onClick={() => setShowToast(false)} />
             </div>
-            <ToastDescription>
-              Thank you for your message. I'll get back to you soon.
-            </ToastDescription>
+            <ToastDescription>{toastMessage.description}</ToastDescription>
           </Toast>
         )}
         <ToastViewport />
