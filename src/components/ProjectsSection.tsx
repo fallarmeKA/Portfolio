@@ -80,7 +80,7 @@ const ProjectsSection = ({
         "https://images.unsplash.com/photo-1677442135968-6bd241f40c8d?w=600&q=80",
       imageUrl:
         "https://images.unsplash.com/photo-1677442135968-6bd241f40c8d?w=800&q=80",
-      technologies: ["Vite", "React", "Tailwind CSS", "MongoDB"],
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/ai-content-generator",
     },
