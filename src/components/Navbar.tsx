@@ -46,7 +46,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
         {/* Logo */}
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold text-primary">
-            Kyle Fallarme
+            CODE Ky
           </Link>
         </div>
 

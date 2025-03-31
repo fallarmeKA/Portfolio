@@ -17,8 +17,8 @@ const Home = () => {
         {/* Bio Section */}
         <BioSection
           name="Kyle Fallarme"
-          title="UI/UX Designer"
-          description="Passionate UI/UX designer with expertise in creating intuitive and engaging digital experiences. Combining creative design thinking with technical skills to build user-centered solutions that solve real problems."
+          title="Frontend Developer"
+          description="Passionate UI/UX Designer creating intuitive and engaging digital experiences that captivate users. I blend creative design thinking with technical expertise to craft seamless, user-centered interfaces. Driven by innovation, I transform ideas into visually compelling solutions that make a lasting impact."
           imageUrl="images/ProfPic.jpg"
         />
 

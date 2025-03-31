@@ -21,6 +21,7 @@ const SkillsSection = ({
       { name: "HTML/CSS" },
       { name: "JavaScript" },
       { name: "React" },
+      { name: "TypeScript" },
       { name: "Responsive Design" },
       { name: "Tailwind CSS" },
     ],
@@ -32,7 +33,6 @@ const SkillsSection = ({
     ],
     programmingLanguages: [
       { name: "Java" },
-      { name: "TypeScript" },
     ],
     aiDesignTools: [
       { name: "Canva" },
