@@ -28,16 +28,16 @@ const ProjectsSection = ({
       id: "1",
       title: "Portfolio Website",
       description:
-        "A responsive portfolio website built with React and Tailwind CSS",
+        "A responsive portfolio website built with HTML, CSS, and JavaScript.",
       longDescription:
-        "This portfolio website showcases my skills and projects in a clean, modern design. Built with React and Tailwind CSS, it features responsive layouts and interactive elements.",
+        "This portfolio website showcases skills and projects in a clean, modern design. Built with HTML, CSS and Javascript, it features responsive layouts and interactive elements.",
       thumbnail:
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+        "/images/Port.png",
       imageUrl:
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      demoUrl: "https://example.com/portfolio",
-      repoUrl: "https://github.com/kylefallarme/portfolio",
+        "/images/Port.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      demoUrl: "https://free-template-portfolio-xi.vercel.app/", 
+      repoUrl: "https://github.com/fallarmeKA/Free-Template-Portfolio",
     },
     {
       id: "2",
