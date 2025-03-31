@@ -82,7 +82,7 @@ const ProjectsSection = ({
         "/images/memo.jpg",
       technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
-      repoUrl: "https://github.com/kylefallarme/ai-content-generator",
+      repoUrl: "https://github.com/kylefallarme/",
     },
   ],
 }: ProjectsSectionProps) => {
