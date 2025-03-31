@@ -215,10 +215,10 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 mr-3 text-primary" />
                   <a
-                    href="mailto:kyle.fallarme@example.com"
+                    href="mailto:kalfallarme08@gmail.com"
                     className="text-gray-700 hover:text-primary transition-colors"
                   >
-                    kyle.fallarme@example.com
+                    kalfallarme08@gmail.com
                   </a>
                 </div>
 

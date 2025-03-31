@@ -47,9 +47,9 @@ const ProjectsSection = ({
       longDescription:
         "A comprehensive dashboard for e-commerce store owners to manage products, view sales analytics, and handle customer orders. Features a clean UI with data visualization components.",
       thumbnail:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
+        "/images/proj.jpg",
       imageUrl:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+        "/images/proj.jpg",
       technologies: ["React", "Redux", "Chart.js", "Material UI"],
       demoUrl: "https://intern-projmgt-main.vercel.app/dashboard",
       repoUrl: "https://github.com/bridge360-ph/Intern_projmgt1",
@@ -62,11 +62,11 @@ const ProjectsSection = ({
       longDescription:
         "A BaryoWork Application is to streamline local job search for residents in the Philippines.",
       thumbnail:
-        "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&q=80",
+        "/images/Baryo.png",
       imageUrl:
-        "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&q=80",
+        "/images/Baryo.png",
       technologies: ["React Native", "MongoDB", "Redux"],
-      demoUrl: "https://example.com/fitness-app",
+      demoUrl: "https://www.figma.com/proto/Ehh1s269c2iBtOB9taFlps/BaryoWork-App-(temp-name)?node-id=7-13&p=f&t=nEGGNZBpJf2F866W-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=460%3A64&show-proto-sidebar=1",
       repoUrl: "https://github.com/fallarmeKA/BaryoWorkFront",
     },
     {
@@ -77,9 +77,9 @@ const ProjectsSection = ({
       longDescription:
         "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
       thumbnail:
-        "https://images.unsplash.com/photo-1677442135968-6bd241f40c8d?w=600&q=80",
+        "/images/memo.jpg",
       imageUrl:
-        "https://images.unsplash.com/photo-1677442135968-6bd241f40c8d?w=800&q=80",
+        "/images/memo.jpg",
       technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/ai-content-generator",
