@@ -73,7 +73,7 @@ const ProjectsSection = ({
       id: "4",
       title: "MemoRecall Web App",
       description:
-        "A web application for Geriatric Individuals.",
+        "A Senior Friendly Website Application for Geriatric Individuals.",
       longDescription:
         "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
       thumbnail:
