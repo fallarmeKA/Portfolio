@@ -223,7 +223,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id = "contact" }) => {
                 </div>
 
                 <p className="text-gray-600 mt-4">
-                  Based in San Francisco, California. Available for remote work
+                  Based in Manila, Philippines. Available for remote work
                   and collaborations worldwide.
                 </p>
               </div>
