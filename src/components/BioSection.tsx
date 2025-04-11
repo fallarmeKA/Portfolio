@@ -37,12 +37,7 @@ const BioSection = ({
             <p className="text-slate-700 text-lg mb-8 max-w-lg mx-auto md:mx-0">
               {description}
             </p>
-            <a href="/public/FALLARME_RESUME.pdf" download>
-  <Button className="group" size="lg">
-    <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
-    Download Resume
-  </Button>
-</a>
+            
           </div>
 
           <div className="md:w-1/2 flex justify-center">
