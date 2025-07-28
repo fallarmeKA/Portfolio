@@ -13,8 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Kyle Fallarme</h3>
             <p className="text-slate-300 mb-4">
-              UI/UX Designer passionate about creating intuitive and engaging
-              digital experiences.
+              Front-end developer passionate about building intuitive and user-focused digital experiences.
             </p>
           </div>
 
