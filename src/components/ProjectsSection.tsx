@@ -99,6 +99,51 @@ const ProjectsSection = ({
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/",
     },
+        {
+      id: "6",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
+    {
+      id: "7",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
+    {
+      id: "8",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
   ],
 }: ProjectsSectionProps) => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
