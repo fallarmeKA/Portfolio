@@ -84,10 +84,73 @@ const ProjectsSection = ({
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/",
     },
+    {
+      id: "5",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
+    {
+      id: "6",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
+    {
+      id: "7",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
+    {
+      id: "8",
+      title: "MemoRecall Web App",
+      description:
+        "A Senior Friendly Website Application for Geriatric Individuals.",
+      longDescription:
+        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+      thumbnail:
+        "/images/memo.jpg",
+      imageUrl:
+        "/images/memo.jpg",
+      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
+      repoUrl: "https://github.com/kylefallarme/",
+    },
   ],
 }: ProjectsSectionProps) => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
   const handleViewDetails = (id: string) => {
     const project = projects.find((p) => p.id === id);
@@ -106,7 +169,7 @@ const ProjectsSection = ({
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center">
-          {projects.map((project) => (
+          {visibleProjects.map((project) => (
             <ProjectCard
               key={project.id}
               id={project.id}
@@ -118,6 +181,17 @@ const ProjectsSection = ({
             />
           ))}
         </div>
+
+        {projects.length > 4 && (
+          <div className="mt-8 text-center">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-full transition-all"
+            >
+              {showAll ? "Show Less" : "See All Projects"}
+            </button>
+          </div>
+        )}
 
         {selectedProject && (
           <ProjectModal
