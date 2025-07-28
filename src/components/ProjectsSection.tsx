@@ -82,20 +82,20 @@ const ProjectsSection = ({
         "/images/memo.jpg",
       technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
-      repoUrl: "https://github.com/kylefallarme/",
+      
     },
     {
       id: "5",
-      title: "MemoRecall Web App",
+      title: "Nike-Ecommerce Website",
       description:
-        "A Senior Friendly Website Application for Geriatric Individuals.",
+        "Nike E-commerce Website is a modern e-commerce platform for Nike products.",
       longDescription:
-        "The development of a Senior Friendly Web Application for holistic intervention of early memory lapses in geriatric individuals.",
+        "Nike E-commerce Website is a modern e-commerce platform for Nike products, featuring a sleek design, user-friendly interface, and secure payment options.",
       thumbnail:
         "/images/memo.jpg",
       imageUrl:
         "/images/memo.jpg",
-      technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
+      technologies: ["TypeScript"],
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/",
     },
