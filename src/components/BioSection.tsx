@@ -12,8 +12,8 @@ interface BioSectionProps {
 
 const BioSection = ({
   name = "Kyle Fallarme",
-  title = "UI/UX Designer",
-  description = "Passionate UI/UX designer with expertise in creating intuitive and engaging digital experiences. Combining creative design thinking with technical skills to build user-centered solutions that solve real problems.",
+  title = "Front-End Developer",
+  description = "I'm a passionate front-end developer who combines creative design thinking with technical expertise to build engaging, user-centered digital experiences.. Combining creative design thinking with technical skills to build user-centered solutions that solve real problems.",
   resumeUrl = "/resume.pdf",
   imageUrl = "images/ProfPic.jpg",
 }: BioSectionProps) => {
