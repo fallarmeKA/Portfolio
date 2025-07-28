@@ -92,9 +92,9 @@ const ProjectsSection = ({
       longDescription:
         "Nike E-commerce Website is a modern e-commerce platform for Nike products, featuring a sleek design, user-friendly interface, and secure payment options.",
       thumbnail:
-        "/images/memo.jpg",
+        "/images/Nike.png",
       imageUrl:
-        "/images/memo.jpg",
+        "/images/Nike.png",
       technologies: ["TypeScript"],
       demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
       repoUrl: "https://github.com/kylefallarme/",
