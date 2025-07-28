@@ -185,11 +185,11 @@ const ProjectsSection = ({
         {projects.length > 4 && (
           <div className="mt-8 text-center">
             <button
-              onClick={() => setShowAll(!showAll)}
-              className="px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-full transition-all"
-            >
-              {showAll ? "Show Less" : "See All Projects"}
-            </button>
+  onClick={() => setShowAll(!showAll)}
+  className="px-6 py-2 text-white bg-[#0f172a] hover:brightness-110 rounded-full transition-all"
+>
+  {showAll ? "Show Less" : "See All Projects"}
+</button>
           </div>
         )}
 
