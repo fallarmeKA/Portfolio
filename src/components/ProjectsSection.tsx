@@ -111,8 +111,8 @@ const ProjectsSection = ({
       imageUrl:
         "/images/memo.jpg",
       technologies: ["Vite", "React", "Tailwind CSS", "TypeScript", "MongoDB"],
-      demoUrl: "https://memorecall-v3.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR095nOnBidRaKpm2ytk1yxG1QCnQQi86y5RnSSEdJ38GTwpSwUA04J0kbE_aem__TQC0ZJizodmRscQIGBTjA",
-      repoUrl: "https://github.com/kylefallarme/",
+      demoUrl: "https://nike-ecom-sigma.vercel.app/",
+      repoUrl: "https://github.com/fallarmeKA/Nike-ECOM",
     },
     {
       id: "7",
